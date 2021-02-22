@@ -25,7 +25,7 @@ class App extends React.Component {
     console.log("render");
     return (
       <div>
-        <h1>{this.state.counter}</h1>
+        <p>{this.state.counter}</p>
         <button onClick={this.handleOnClick}>Click!</button>
       </div>
     );

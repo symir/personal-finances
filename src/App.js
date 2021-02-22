@@ -61,6 +61,7 @@ class App extends React.Component {
             onChange={this.handleOnChangeCost}
           />
         </span>
+
         <Button handleOnClick={this.handleOnClick} />
         <p>Cost: {Number(this.state.sum)}</p>
         <ul>

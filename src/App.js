@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   render() {
-    console.log("render");
+    console.log("Render");
     return (
       <div>
         <p>{this.state.counter}</p>
